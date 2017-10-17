@@ -30,4 +30,4 @@ ms.reviewer:
 
 ## Deleting you NuGet account
 
-To delete your NuGet account go to (nuget.org/account/delete)[nuget.org/account/delete]
+To delete your NuGet account go to [nuget.org/account/delete](nuget.org/account/delete)
