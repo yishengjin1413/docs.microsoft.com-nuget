@@ -69,7 +69,9 @@ These indicate that you either do not have permission to delete files in the cac
 The following errors can occur when using `Clear All NuGet Cache(s)` from **Tools > Options > NuGet Package Manager**:
 
 * Access denied
-Do this to resolve that
+    
+    Do this to resolve that
 
 * Something else
-Do this to resolve that
+    
+    Do this to resolve that
