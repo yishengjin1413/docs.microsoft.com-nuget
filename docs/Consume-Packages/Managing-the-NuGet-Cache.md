@@ -30,7 +30,9 @@ ms.reviewer:
 
 # Managing the NuGet cache
 
-NuGet manages several local caches to avoid downloading packages that are already on the computer, and to provide offline support. NuGet 2.8+ automatically falls back to the cache when installing or reinstalling packages without a network connection.
+NuGet manages several local caches to avoid downloading packages that are already on the computer, and to provide offline support. NuGet 2.8+ automatically falls back to the cache when installing or reinstalling packages without a network connection. You can manage the cache using the nuget.exe CLI or from Visual Studio
+
+## CLI
 
 Cache locations are available using the [locals command](../tools/cli-ref-locals.md):
 
@@ -55,7 +57,7 @@ nuget locals temp -clear              #Clear the temporary cache
 nuget locals all -clear               #Clear all caches
 ```
 
-Note that managing the cache is presently supported only from the NuGet command line, and not within Visual Studio or through the Package Manager Console. Also, managing the 2.x cache is not supported in NuGet 3.6 and later.
+Note that managing the cache is presently supported only from the NuGet command line, and only clearing all cache is supported within Visual Studio through the **Tools > Options > NuGet Package Manager** and clicking on `Clear All NuGet Cache(s)`. Also, managing the 2.x cache is not supported in NuGet 3.6 and later.
 
 The following errors can occur when using `nuget locals`:
 
@@ -63,3 +65,5 @@ The following errors can occur when using `nuget locals`:
 * **The directory is not empty**
 
 These indicate that you either do not have permission to delete files in the cache, or that one or more files in the cache are in use by another process, which must be closed before the those files can be removed.
+
+The following errors can occur when using `Clear All NuGet Cache(s)` from **Tools > Options > NuGet Package Manager**:
