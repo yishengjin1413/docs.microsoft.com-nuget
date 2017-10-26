@@ -67,3 +67,9 @@ The following errors can occur when using `nuget locals`:
 These indicate that you either do not have permission to delete files in the cache, or that one or more files in the cache are in use by another process, which must be closed before the those files can be removed.
 
 The following errors can occur when using `Clear All NuGet Cache(s)` from **Tools > Options > NuGet Package Manager**:
+
+* Access denied
+Do this to resolve that
+
+* Something else
+Do this to resolve that
