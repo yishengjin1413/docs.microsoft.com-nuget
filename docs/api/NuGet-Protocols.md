@@ -91,8 +91,9 @@ X-NuGet-ApiKey | Header | string | yes      | For example, `X-NuGet-ApiKey: {VER
 
 #### Response
 
-Status Code | Meaning
------------ | -------
-200         | The API key is valid
-403         | The API key is invalid or not authorized to push against the package
-404         | The package referred to by `ID` and `VERSION` (optional) does not exist
+| Status Code |                                 Meaning                                 |
+|-------------|-------------------------------------------------------------------------|
+|     200     |                          The API key is valid                           |
+|     403     |  The API key is invalid or not authorized to push against the package   |
+|     404     | The package referred to by `ID` and `VERSION` (optional) does not exist |
+

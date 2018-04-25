@@ -122,7 +122,8 @@ X-NuGet-ApiKey | Header | string | yes      | For example, `X-NuGet-ApiKey: {USE
 
 ### Response
 
-Status Code | Meaning
------------ | -------
-200         | The package is now listed
-404         | No package with the provided `ID` and `VERSION` exists
+| Status Code |                        Meaning                         |
+|-------------|--------------------------------------------------------|
+|     200     |               The package is now listed                |
+|     404     | No package with the provided `ID` and `VERSION` exists |
+

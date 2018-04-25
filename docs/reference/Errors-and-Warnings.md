@@ -389,8 +389,9 @@ The errors and warnings listed here are available only with [PackageReference-ba
 
 ### NU3028
 
-| | |
-| --- | --- |
-| **Issue** | Certificate chain building failed for the timestamp signature. The timestamp signing certificate is untrusted, revoked, or revocation information for the certificate is unavailable. |
-| **Example message** | *WARNING: NU3028: The revocation function was unable to check revocation for the certificate.* |
-| **Solution** | Use a trusted and valid certificate. Check internet connectivity. |
+|                     |                                                                                                                                                                                       |
+|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|      **Issue**      | Certificate chain building failed for the timestamp signature. The timestamp signing certificate is untrusted, revoked, or revocation information for the certificate is unavailable. |
+| **Example message** |                                            *WARNING: NU3028: The revocation function was unable to check revocation for the certificate.*                                             |
+|    **Solution**     |                                                           Use a trusted and valid certificate. Check internet connectivity.                                                           |
+
